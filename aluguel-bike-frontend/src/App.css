@@ -1,0 +1,106 @@
+/* Layout geral */
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 16px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Cabeçalhos com ícone */
+.h1 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 12px 0;
+}
+.h3 {
+  margin: 0 0 8px 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Barra do usuário */
+.userbar {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.userbar .muted, .muted { color: #888; }
+
+/* Cartões */
+.card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+  margin-bottom: 16px;
+}
+
+/* Status */
+.text-ok { color: #2e7d32; }
+.text-warn { color: #d32f2f; }
+.text-muted { color: #9e9e9e; }
+
+/* Grid das estações */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+.station-card {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 12px;
+  background: #fff;
+}
+
+/* Lista de bikes */
+.bikes-title { margin: 8px 0 4px; }
+.bikes-list { margin: 0; padding-left: 16px; }
+.bike-item {
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.bike-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-right: 10px;
+}
+
+/* Linha de devolução */
+.return-row {
+  margin-top: 8px;
+}
+.return-row button img {
+  vertical-align: middle;
+  margin-right: 6px;
+}
+
+/* Utilitários simples */
+.mb-8 { margin-bottom: 8px; }
+.ml-8 { margin-left: 8px; }
+
+/* Botões */
+button {
+  padding: 6px 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background: #fafafa;
+  cursor: pointer;
+}
+button:disabled {
+  opacity: .55;
+  cursor: not-allowed;
+}
+
+/* Rodapé */
+.footer {
+  margin-top: 16px;
+  color: #888;
+  font-size: 12px;
+}
