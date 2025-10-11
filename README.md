@@ -88,8 +88,8 @@ Sempre que o estado muda no servidor (ex.: abrir estação, retirar bicicleta), 
 
 ### 1) Clonar o repositório
 ```bash
-git clone https://github.com/JeanKoerich/aluguel-bicicleta-eventos.git
-cd aluguel-bicicleta-eventos
+git clone https://github.com/JeanKoerich/aluguel-bicicletas-eventos.git
+cd aluguel-bicicletas-eventos
 ```
 
 ### 2) Backend
