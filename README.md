@@ -133,7 +133,7 @@ npm start
 aluguel-bicicleta-eventos/
 ├─ backend/
 │  ├─ src/
-│  │  └─ server.ts         # Servidor Express + Socket.IO, estado e eventos
+│  │  └─ index.ts         # Servidor Express + Socket.IO, estado e eventos
 │  ├─ package.json
 │  └─ tsconfig.json
 ├─ frontend/
@@ -177,7 +177,7 @@ No código, são referenciados como:
   Adicione o script no `package.json`:
   ```json
   // backend/package.json
-  "scripts": { "start": "ts-node src/server.ts", "dev": "nodemon src/server.ts" }
+  "scripts": { "start": "ts-node src/index.ts", "dev": "nodemon src/index.ts" }
 
   // frontend/package.json
   "scripts": { "start": "react-scripts start" }
