@@ -94,7 +94,7 @@ cd aluguel-bicicletas-eventos
 
 ### 2) Backend
 ```bash
-cd backend
+cd aluguel-bike-backend
 npm install
 # desenvolvimento (se tiver script start ou dev)
 npm start
@@ -106,7 +106,7 @@ npm run dev
 ### 3) Frontend
 Em outro terminal:
 ```bash
-cd frontend
+cd aluguel-bike-frontend
 npm install
 npm start
 ```
@@ -131,12 +131,12 @@ npm start
 ## Estrutura de Pastas
 ```
 aluguel-bicicleta-eventos/
-├─ backend/
+├─ aluguel-bike-backend/
 │  ├─ src/
 │  │  └─ index.ts         # Servidor Express + Socket.IO, estado e eventos
 │  ├─ package.json
 │  └─ tsconfig.json
-├─ frontend/
+├─ aluguel-bike-frontend/
 │  ├─ public/
 │  │  └─ images/           # Ícones: usuario.png, estacaoOn.png, estacaoOff.png, bicicletaOn.png, bicicletaOff.png
 │  ├─ src/
